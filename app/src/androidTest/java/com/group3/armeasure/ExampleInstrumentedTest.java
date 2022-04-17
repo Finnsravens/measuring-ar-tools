@@ -1,4 +1,4 @@
-package com.example.armeasure;
+package com.group3.armeasure;
 
 import android.content.Context;
 

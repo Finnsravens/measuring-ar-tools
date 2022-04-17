@@ -1,4 +1,4 @@
-package com.example.armeasure;
+package com.group3.armeasure;
 
 import org.junit.Test;
 

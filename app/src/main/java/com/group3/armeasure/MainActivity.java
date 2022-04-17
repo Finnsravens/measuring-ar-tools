@@ -1,4 +1,4 @@
-package com.example.armeasure;
+package com.group3.armeasure;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 resetLayout();
                 measure_height = false;
-                text.setText("Click the extremes you want to measure");
+                text.setText("Click the area you want to measure");
             }
         });
 
@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
                 .exceptionally(
                         throwable -> {
                             Toast toast =
-                                    Toast.makeText(this, "Unable to load andy renderable", Toast.LENGTH_LONG);
+                                    Toast.makeText(this, "Unable to load any renderable", Toast.LENGTH_LONG);
                             toast.setGravity(Gravity.CENTER, 0, 0);
                             toast.show();
                             return null;
